@@ -4,11 +4,11 @@ from app.model import Book
 
 
 class Printer(ABC):
-    def __init__(self, book) -> None:
+    def __init__(self, book: Book) -> None:
         self.book = book
 
     @abstractmethod
-    def printer(self):
+    def printer(self) -> None:
         ...
 
 

@@ -20,6 +20,7 @@ data = {
 
 }
 
+
 def main(book: Book, commands: list[tuple[str, str]]) -> None | str:
     for cmd, method_type in commands:
         if cmd == "display":
